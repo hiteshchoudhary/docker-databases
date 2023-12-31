@@ -1,0 +1,20 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    restart: always
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+    environment:
+      - POSTGRES_DB=chaiDB
+      - POSTGRES_USER=chaiaurcode
+      - POSTGRES_PASSWORD=chaiaurcode
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
