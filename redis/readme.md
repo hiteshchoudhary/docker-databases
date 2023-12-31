@@ -34,8 +34,6 @@ Now that you are connected to the Redis database through Redis Insight, let's se
 
 After connecting to the redis. Refer to the following video as a guide:
 
-<video controls autoplay>
-  <source src="https://wajeshubham-portfolio.s3.ap-south-1.amazonaws.com/redis-insight-guide.mov">
-</video>
+[![Redis through Redis insight](https://img.youtube.com/vi/Z4pAv2-NVSI/0.jpg)](https://www.youtube.com/watch?v=Z4pAv2-NVSI)
 
 Now, you have a running redis instance!
