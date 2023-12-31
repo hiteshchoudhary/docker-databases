@@ -34,8 +34,8 @@ docker-compose -f mongodb/docker-compose.yml run mongo mongosh --host mongo
 
 - `-f mongodb/docker-compose.yml` points to the file which we want to run docker compose on. If we have `docker-compose.yml` in root folder we don't need to pass this flag
 - `run` will run the command that we enter
-- `mongo` is the container name that we have entered in docker compose file
-- `mongosh --host mongo` is the command to enter into the mongo shell
+- `mongo` is the container name that we have entered in docker compose file. This is the container in which we want to `run` the command
+- `mongosh --host mongo` is the command that we want to `run`, to enter into the mongo shell
   - we entered `--host mongo` because we cannot connect to `localhost:27017` inside the docker environment we need to enter host as the container name
 
 After running this you will see the following output:
