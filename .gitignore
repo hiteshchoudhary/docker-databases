@@ -1,3 +1,4 @@
 # mongo db named volumes and paths on the host mapped to paths in the container
 /mongodb/db_data
 /mysql/mysql
+/postgresql/data

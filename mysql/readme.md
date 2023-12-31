@@ -15,7 +15,7 @@ docker-compose -f ./mysql/docker-compose.yml up
 # Access Adminer
 
 - Go to `http://localhost:8080` to access Adminer portal.
-- Enter respective credentials and hit login
+- Enter respective credentials after selecting system as `MySQL` and hit login
 - You are connected to mysql GUI and good to go now!
 
 # Access MySQL monitor
