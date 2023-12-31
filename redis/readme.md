@@ -35,7 +35,7 @@ Now that you are connected to the Redis database through Redis Insight, let's se
 After connecting to the redis. Refer to the following video as a guide:
 
 <video controls autoplay>
-  <source src="./redis-insight-guide.mov">
+  <source src="https://github.com/hiteshchoudhary/docker-databases/blob/main/redis/redis-insight-guide.mov">
 </video>
 
 Now, you have a running redis instance!
