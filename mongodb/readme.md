@@ -24,7 +24,7 @@ mongodb://<username>:<password>@localhost:27017
 - Enter the above connection string with correct `username` and `password` and hit connect
 - That's it you are good to go now!
 
-# Access the mongo shell via docket
+# Access the mongo shell via docker
 
 **Run the following command to enable mongo shell:**
 
