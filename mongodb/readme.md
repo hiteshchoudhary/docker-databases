@@ -108,4 +108,4 @@ config  108.00 KiB
 local    72.00 KiB
 ```
 
-Now, you can run mongo command here
+Now, you can run mongodb related commands here
