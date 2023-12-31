@@ -1,7 +1,6 @@
 # a docker compose file for mysql and adminer with a volume for the database and setup for environment variables
 
-
-version: '3.1'
+version: "3.1"
 services:
   db:
     image: mysql
@@ -12,7 +11,7 @@ services:
       MYSQL_USER: chai
       MYSQL_PASSWORD: chai
     ports:
-      - 3306:3306
+      - 3306:3306 # make sure you don't have another container running on 3306
     volumes:
       - ./mysql:/var/lib/mysql
   adminer:
@@ -20,4 +19,3 @@ services:
     restart: always
     ports:
       - 8080:8080
-
