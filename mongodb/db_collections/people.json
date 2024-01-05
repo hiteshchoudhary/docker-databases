@@ -1,0 +1,798 @@
+[
+  {
+    "_id": { "$oid": "576865c0bab6cf2f2fb39d7a" },
+    "address": {
+      "country": "France",
+      "city": "Marseille",
+      "postalCode": 13000,
+      "street": "Rue de Lyon"
+    },
+    "birthDate": { "$date": "1991-05-23T10:29:00.000Z" },
+    "firstName": "Lea",
+    "lastName": "Bernard",
+    "payments": [
+      {
+        "category": "relax",
+        "name": "disco",
+        "amount": 5.06
+      },
+      {
+        "category": "clothes",
+        "name": "dress",
+        "amount": 160.75
+      },
+      {
+        "category": "clothes",
+        "name": "dress",
+        "amount": 57.05
+      },
+      {
+        "category": "relax",
+        "name": "disco",
+        "amount": 55.04
+      },
+      {
+        "category": "relax",
+        "name": "cinema",
+        "amount": 13.57
+      },
+      {
+        "category": "health",
+        "name": "gym",
+        "amount": 28.22
+      },
+      {
+        "category": "relax",
+        "name": "holidays",
+        "amount": 762.88
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 5.57
+      },
+      {
+        "category": "clothes",
+        "name": "handbag",
+        "amount": 32.86
+      },
+      {
+        "category": "clothes",
+        "name": "shoes",
+        "amount": 64.34
+      }
+    ],
+    "sex": "female",
+    "wealth": {
+      "bankAccounts": [
+        {
+          "bank": "BNP Paribas",
+          "balance": 3934.64
+        }
+      ],
+      "realEstates": [
+        {
+          "type": "flat",
+          "worth": 679000
+        }
+      ],
+      "market": {
+        "stocks": [],
+        "bonds": []
+      },
+      "credits": [
+        {
+          "bank": "BNP Paribas",
+          "type": "mortgage",
+          "value": 580069.7000000001
+        }
+      ]
+    }
+  },
+  {
+    "_id": { "$oid": "576865c1bab6cf2f2fb39d7b" },
+    "address": {
+      "country": "Poland",
+      "city": "Warsaw",
+      "postalCode": "05-075",
+      "street": "Marszalkowska"
+    },
+    "birthDate": { "$date": "1992-01-06T23:57:00.000Z" },
+    "firstName": "Alicja",
+    "lastName": "Dabrowska",
+    "payments": [
+      {
+        "category": "relax",
+        "name": "cinema",
+        "amount": 10.69
+      },
+      {
+        "category": "relax",
+        "name": "holidays",
+        "amount": 484.64
+      },
+      {
+        "category": "health",
+        "name": "gym",
+        "amount": 23.92
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 63.97
+      },
+      {
+        "category": "health",
+        "name": "pharmacy",
+        "amount": 12.73
+      },
+      {
+        "category": "relax",
+        "name": "cinema",
+        "amount": 12.85
+      },
+      {
+        "category": "clothes",
+        "name": "shoes",
+        "amount": 72.78
+      },
+      {
+        "category": "relax",
+        "name": "disco",
+        "amount": 32.01
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 29.94
+      },
+      {
+        "category": "clothes",
+        "name": "dress",
+        "amount": 171.31
+      }
+    ],
+    "sex": "female",
+    "wealth": {
+      "bankAccounts": [
+        {
+          "bank": "Pekao SA",
+          "balance": 441.15
+        },
+        {
+          "bank": "mBank",
+          "balance": 4379.29
+        }
+      ],
+      "realEstates": [],
+      "market": {
+        "stocks": [],
+        "bonds": []
+      },
+      "credits": []
+    }
+  },
+  {
+    "_id": { "$oid": "576865c1bab6cf2f2fb39d7c" },
+    "address": {
+      "country": "France",
+      "city": "Paris",
+      "postalCode": 71150,
+      "street": "Rue du Faubourg-Saint-Denis"
+    },
+    "birthDate": { "$date": "1973-04-07T19:22:00.000Z" },
+    "firstName": "Julie",
+    "lastName": "Roux",
+    "payments": [
+      {
+        "category": "food",
+        "name": "restaurant",
+        "amount": 58.82
+      },
+      {
+        "category": "food",
+        "name": "restaurant",
+        "amount": 31.14
+      },
+      {
+        "category": "health",
+        "name": "pharmacy",
+        "amount": 18.11
+      },
+      {
+        "category": "food",
+        "name": "restaurant",
+        "amount": 51.95
+      },
+      {
+        "category": "clothes",
+        "name": "dress",
+        "amount": 147.19
+      },
+      {
+        "category": "clothes",
+        "name": "pants",
+        "amount": 45.21
+      },
+      {
+        "category": "clothes",
+        "name": "blouse",
+        "amount": 28.97
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 65.2
+      },
+      {
+        "category": "relax",
+        "name": "holidays",
+        "amount": 936.8
+      },
+      {
+        "category": "clothes",
+        "name": "blouse",
+        "amount": 15.98
+      }
+    ],
+    "sex": "female",
+    "wealth": {
+      "bankAccounts": [
+        {
+          "bank": "BPCE",
+          "balance": 18669.24
+        },
+        {
+          "bank": "BNP Paribas",
+          "balance": 12004.11
+        },
+        {
+          "bank": "Credit Mutuel",
+          "balance": 18747.74
+        }
+      ],
+      "realEstates": [
+        {
+          "type": "flat",
+          "worth": 645000
+        }
+      ],
+      "market": {
+        "stocks": [],
+        "bonds": []
+      },
+      "credits": [
+        {
+          "bank": "BNP Paribas",
+          "type": "mortgage",
+          "value": 197628
+        }
+      ]
+    }
+  },
+  {
+    "_id": { "$oid": "576865c1bab6cf2f2fb39d7d" },
+    "address": {
+      "country": "France",
+      "city": "Paris",
+      "postalCode": 71150,
+      "street": "Rue du Faubourg-Saint-Denis"
+    },
+    "birthDate": { "$date": "1981-07-13T02:52:00.000Z" },
+    "firstName": "Lucas",
+    "lastName": "David",
+    "payments": [
+      {
+        "category": "health",
+        "name": "doctor",
+        "amount": 87.24
+      },
+      {
+        "category": "health",
+        "name": "pharmacy",
+        "amount": 31.56
+      },
+      {
+        "category": "relax",
+        "name": "disco",
+        "amount": 40.9
+      },
+      {
+        "category": "relax",
+        "name": "cinema",
+        "amount": 10.96
+      },
+      {
+        "category": "health",
+        "name": "gym",
+        "amount": 37.03
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 9.5
+      },
+      {
+        "category": "relax",
+        "name": "disco",
+        "amount": 77.88
+      },
+      {
+        "category": "relax",
+        "name": "cinema",
+        "amount": 13.11
+      },
+      {
+        "category": "relax",
+        "name": "holidays",
+        "amount": 1222.37
+      },
+      {
+        "category": "relax",
+        "name": "disco",
+        "amount": 107.17
+      }
+    ],
+    "sex": "male",
+    "wealth": {
+      "bankAccounts": [
+        {
+          "bank": "Credit Agricole",
+          "balance": 2740.62
+        }
+      ],
+      "realEstates": [],
+      "market": {
+        "stocks": [],
+        "bonds": []
+      },
+      "credits": []
+    }
+  },
+  {
+    "_id": { "$oid": "576865c1bab6cf2f2fb39d7e" },
+    "address": {
+      "country": "France",
+      "city": "Marseille",
+      "postalCode": 13000,
+      "street": "Av des Aygalades"
+    },
+    "birthDate": { "$date": "1978-09-07T09:04:00.000Z" },
+    "firstName": "Thomas",
+    "lastName": "Lambert",
+    "payments": [
+      {
+        "category": "relax",
+        "name": "holidays",
+        "amount": 1863.88
+      },
+      {
+        "category": "health",
+        "name": "gym",
+        "amount": 24.75
+      },
+      {
+        "category": "clothes",
+        "name": "shoes",
+        "amount": 94.9
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 91.29
+      },
+      {
+        "category": "food",
+        "name": "restaurant",
+        "amount": 12.24
+      },
+      {
+        "category": "relax",
+        "name": "holidays",
+        "amount": 1014.71
+      },
+      {
+        "category": "relax",
+        "name": "disco",
+        "amount": 18.46
+      },
+      {
+        "category": "relax",
+        "name": "disco",
+        "amount": 82.02
+      },
+      {
+        "category": "relax",
+        "name": "cinema",
+        "amount": 14.79
+      },
+      {
+        "category": "relax",
+        "name": "disco",
+        "amount": 29.58
+      }
+    ],
+    "sex": "male",
+    "wealth": {
+      "bankAccounts": [
+        {
+          "bank": "BPCE",
+          "balance": 10549.45
+        }
+      ],
+      "realEstates": [
+        {
+          "type": "flat",
+          "worth": 633000
+        },
+        {
+          "type": "house",
+          "worth": 586000
+        }
+      ],
+      "market": {
+        "stocks": [],
+        "bonds": []
+      },
+      "credits": [
+        {
+          "bank": "Societe Generale",
+          "type": "mortgage",
+          "value": 274278.9
+        }
+      ]
+    }
+  },
+  {
+    "_id": { "$oid": "576865c1bab6cf2f2fb39d80" },
+    "address": {
+      "country": "France",
+      "city": "Paris",
+      "postalCode": 75010,
+      "street": "Passage du Havre"
+    },
+    "birthDate": { "$date": "1983-08-24T02:02:00.000Z" },
+    "firstName": "Maxime",
+    "lastName": "Martin",
+    "sex": "male",
+    "wealth": {
+      "bankAccounts": [
+        {
+          "bank": "Credit Agricole",
+          "balance": 5935.6
+        }
+      ],
+      "realEstates": [
+        {
+          "type": "flat",
+          "worth": 1019000
+        },
+        {
+          "type": "flat",
+          "worth": 572000
+        }
+      ],
+      "market": {
+        "stocks": [],
+        "bonds": []
+      },
+      "credits": [
+        {
+          "bank": "BPCE",
+          "type": "mortgage",
+          "value": 559244.4
+        }
+      ]
+    }
+  },
+  {
+    "_id": { "$oid": "576865c1bab6cf2f2fb39d7f" },
+    "address": {
+      "country": "Poland",
+      "city": "Poznan",
+      "postalCode": "60-001",
+      "street": "Bohaterow Westerplatte"
+    },
+    "birthDate": { "$date": "1968-08-27T18:20:00.000Z" },
+    "firstName": "Aleksandra",
+    "lastName": "Nowak",
+    "payments": [
+      {
+        "category": "food",
+        "name": "restaurant",
+        "amount": 42.66
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 8.68
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 12.35
+      },
+      {
+        "category": "clothes",
+        "name": "handbag",
+        "amount": 80.4
+      },
+      {
+        "category": "clothes",
+        "name": "underwear",
+        "amount": 33.06
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 11
+      },
+      {
+        "category": "clothes",
+        "name": "underwear",
+        "amount": 26.2
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 20.78
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 31.81
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 64.93
+      }
+    ],
+    "sex": "female",
+    "wealth": {
+      "bankAccounts": [
+        {
+          "bank": "Pekao SA",
+          "balance": 4809.06
+        }
+      ],
+      "realEstates": [],
+      "market": {
+        "stocks": [],
+        "bonds": []
+      },
+      "credits": []
+    }
+  },
+  {
+    "_id": { "$oid": "576865c1bab6cf2f2fb39d83" },
+    "address": {
+      "country": "Poland",
+      "city": "Poznan",
+      "postalCode": "60-001",
+      "street": "Gostynska"
+    },
+    "birthDate": { "$date": "1972-07-12T06:28:00.000Z" },
+    "firstName": "Franciszek",
+    "lastName": "Wozniak",
+    "payments": [
+      {
+        "category": "relax",
+        "name": "holidays",
+        "amount": 431.81
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 24.51
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 46.71
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 12.91
+      },
+      {
+        "category": "clothes",
+        "name": "underwear",
+        "amount": 35.13
+      },
+      {
+        "category": "relax",
+        "name": "cinema",
+        "amount": 9.98
+      },
+      {
+        "category": "relax",
+        "name": "cinema",
+        "amount": 11.86
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 23.57
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 54.24
+      },
+      {
+        "category": "clothes",
+        "name": "shirt",
+        "amount": 50.35
+      }
+    ],
+    "sex": "male",
+    "wealth": {
+      "bankAccounts": [
+        {
+          "bank": "PKO Bank Polski",
+          "balance": 4302.42
+        }
+      ],
+      "realEstates": [
+        {
+          "type": "flat",
+          "worth": 173000
+        },
+        {
+          "type": "flat",
+          "worth": 698000
+        }
+      ],
+      "market": {
+        "stocks": [
+          {
+            "company": "Cyfrowy Polsat",
+            "price": 5.02,
+            "number": 2963
+          },
+          {
+            "company": "Alior Bank",
+            "price": 12.38,
+            "number": 578
+          },
+          {
+            "company": "mBank",
+            "price": 76.25,
+            "number": 87
+          },
+          {
+            "company": "Enea",
+            "price": 2.54,
+            "number": 2592
+          },
+          {
+            "company": "Energa",
+            "price": 2.33,
+            "number": 6854
+          },
+          {
+            "company": "Polska Grupa Energetyczna",
+            "price": 3.27,
+            "number": 1179
+          }
+        ],
+        "bonds": []
+      },
+      "credits": [
+        {
+          "bank": "Pekao SA",
+          "type": "consumer",
+          "worth": 2516.76
+        }
+      ]
+    }
+  },
+  {
+    "_id": { "$oid": "576865c1bab6cf2f2fb39d84" },
+    "address": {
+      "country": "France",
+      "city": "Paris",
+      "postalCode": 75014,
+      "street": "Rue de Richelieu"
+    },
+    "birthDate": { "$date": "1992-02-06T08:37:00.000Z" },
+    "firstName": "Camille",
+    "lastName": "Laurent",
+    "sex": "female",
+    "wealth": {
+      "bankAccounts": [
+        {
+          "bank": "Credit Agricole",
+          "balance": 2059.3
+        }
+      ],
+      "realEstates": [],
+      "market": {
+        "stocks": [],
+        "bonds": []
+      },
+      "credits": []
+    }
+  },
+  {
+    "_id": { "$oid": "576865c1bab6cf2f2fb39d81" },
+    "address": {
+      "country": "Poland",
+      "city": "Warsaw",
+      "postalCode": "02-495",
+      "street": "Zlota"
+    },
+    "birthDate": { "$date": "1974-08-23T20:30:00.000Z" },
+    "firstName": "Kacper",
+    "lastName": "Zajac",
+    "payments": [
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 54.44
+      },
+      {
+        "category": "relax",
+        "name": "cinema",
+        "amount": 8.85
+      },
+      {
+        "category": "food",
+        "name": "restaurant",
+        "amount": 29.06
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 58.03
+      },
+      {
+        "category": "health",
+        "name": "gym",
+        "amount": 29
+      },
+      {
+        "category": "clothes",
+        "name": "shirt",
+        "amount": 54.23
+      },
+      {
+        "category": "clothes",
+        "name": "shirt",
+        "amount": 70.7
+      },
+      {
+        "category": "clothes",
+        "name": "shirt",
+        "amount": 64.34
+      },
+      {
+        "category": "food",
+        "name": "store",
+        "amount": 13.18
+      },
+      {
+        "category": "relax",
+        "name": "cinema",
+        "amount": 7.17
+      }
+    ],
+    "sex": "male",
+    "wealth": {
+      "bankAccounts": [
+        {
+          "bank": "PKO Bank Polski",
+          "balance": 6116.29
+        }
+      ],
+      "realEstates": [],
+      "market": {
+        "stocks": [],
+        "bonds": []
+      },
+      "credits": []
+    }
+  }
+]
