@@ -109,3 +109,23 @@ local    72.00 KiB
 ```
 
 Now, you can run mongodb related commands here
+
+# Create new database
+
+```
+use mongotest
+```
+
+# Import sample collection from json file
+
+- Run below command to copy collection folder from local folder "mongodb/db_collections" to docker folder "db_data"
+
+```
+docker cp  ./mongodb/db_collections mongo:db_data
+```
+
+- Import collection data
+
+```
+mongoimport --uri="mongodb://root:example@localhost:27017/mongotest?ssl=false&authSource=admin" --collection people --jsonArray --batchSize 1 --file ./db_data/people.json
+```
